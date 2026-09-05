@@ -2,7 +2,7 @@
 
 ### 🚀 Backend Java Developer | Spring Boot | System Design | DevOps & Cloud Learner
 
-I'm an **MCA graduate and backend-focused developer** passionate about building secure, reliable, and production-oriented applications using **Java and Spring Boot**.
+I'm currently **pursuing my MCA, expected to graduate in 2027**, and I'm a backend-focused developer passionate about building secure, reliable, and production-oriented applications using **Java and Spring Boot**.
 
 My primary focus is backend engineering — from designing REST APIs and database structures to implementing authentication, caching, rate limiting, and deploying applications.
 
@@ -167,7 +167,7 @@ A full-stack URL shortening platform built with **Spring Boot and React**, focus
 
 ### 🧰 Technologies
 
-**Java • Spring Boot • Spring Security • Spring Data JPA • Hibernate • JWT • Redis • PostgreSQL • MySQL • Bucket4j • Docker • GitHub Actions • React • Vite • Axios**
+**Java • Spring Boot • Spring Security • Spring Data JPA • Hibernate • JWT • Redis • PostgreSQL • MySQL • Bucket4j • Docker • GitHub Actions • React • Vite • Axios • Tailwind CSS**
 
 ---
 
