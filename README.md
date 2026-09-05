@@ -4,9 +4,9 @@
 
 I'm currently **pursuing my MCA, expected to graduate in 2027**, and I'm a backend-focused developer passionate about building secure, reliable, and production-oriented applications using **Java and Spring Boot**.
 
-My primary focus is backend engineering — from designing REST APIs and database structures to implementing authentication, caching, rate limiting, and deploying applications.
+My primary focus is backend engineering — designing REST APIs, working with databases, implementing authentication and authorization, handling application-level concerns, and deploying applications.
 
-I'm also developing a deeper understanding of **System Design, AWS, DevOps, Cloud Infrastructure, and Distributed Systems** to learn how backend applications evolve from simple services into scalable production systems.
+I'm also building a strong foundation in **System Design, AWS, DevOps, Cloud Infrastructure, and Distributed Systems** to understand how backend applications can be designed to become scalable and reliable production systems.
 
 ---
 
@@ -27,17 +27,16 @@ I'm also developing a deeper understanding of **System Design, AWS, DevOps, Clou
 * Exception Handling
 * API Validation
 
-### 🗄️ Databases & Caching
+### 🗄️ Databases & Data
 
 * PostgreSQL
 * MySQL
-* Redis
 * JPA / Hibernate
 * Relational Database Design
 * Entity Relationships
-* Indexing Fundamentals
+* Transactions
+* Database Indexing Fundamentals
 * Query Optimization Fundamentals
-* Caching Strategies
 
 ### 🏗️ System Design
 
@@ -51,7 +50,7 @@ Currently exploring:
 * Database Design
 * Scalability
 * Load Balancing
-* Caching
+* Caching Concepts
 * Database Indexing
 * Horizontal vs Vertical Scaling
 * Stateless Architecture
@@ -64,15 +63,15 @@ Currently exploring:
 * Service-to-Service Communication
 * Performance & Bottleneck Analysis
 
-My goal is not just to make an application **work**, but to understand **why a particular architecture works and what happens when the system grows.**
+My goal is not just to make an application **work**, but to understand **why a particular architecture works, what trade-offs it introduces, and what happens when the system grows.**
 
 ---
 
 # ☁️ AWS & Cloud
 
-I'm currently building my **AWS and cloud fundamentals**, with a focus on understanding how backend applications are deployed and operated in real environments.
+I'm currently building my **AWS and cloud fundamentals**, with a focus on understanding how backend applications are deployed, secured, and operated in real environments.
 
-Learning and exploring:
+### Currently Learning
 
 * AWS EC2
 * AWS S3
@@ -84,23 +83,23 @@ Learning and exploring:
 * Application Deployment
 * Infrastructure Fundamentals
 * Monitoring & Logging
-* Scalability in the Cloud
+* Cloud Scalability
 
 I'm particularly interested in understanding the journey from:
 
 ```text
 Application
-    ↓
-Container
-    ↓
+      ↓
+Containerization
+      ↓
 Cloud Infrastructure
-    ↓
+      ↓
 Database & Storage
-    ↓
-Networking
-    ↓
+      ↓
+Networking & Security
+      ↓
 Monitoring
-    ↓
+      ↓
 Scalable Production System
 ```
 
@@ -120,13 +119,13 @@ Scalable Production System
 * Swagger / OpenAPI
 * IntelliJ IDEA
 
-I'm learning how development, testing, deployment, and infrastructure fit together rather than treating deployment as something separate from development.
+I'm learning how **development, testing, deployment, infrastructure, and monitoring** fit together rather than treating deployment as something separate from development.
 
 ---
 
 # ⚛️ Frontend
 
-I have practical experience with **React** and use it mainly as a supporting skill for building and connecting interfaces to my backend services.
+I have practical experience with **React** and use it mainly as a supporting skill for building interfaces and connecting them with my backend APIs.
 
 * React
 * Vite
@@ -143,19 +142,18 @@ I have practical experience with **React** and use it mainly as a supporting ski
 
 ## 🔗 LinkFlow — URL Shortener & Analytics Platform
 
-A full-stack URL shortening platform built with **Spring Boot and React**, focused on backend engineering, security, caching, rate limiting, analytics, and deployment.
+A full-stack URL shortening platform built with **Spring Boot and React**, focused primarily on backend engineering, security, URL management, rate limiting, analytics, and deployment.
 
 ### ✨ What I Built
 
-* 🔗 Short URL generation using **Base62**
+* 🔗 UUID-based short URL generation
 * 🔐 JWT authentication using **HttpOnly cookies**
 * 🛡️ Spring Security
 * 👤 User authentication and protected APIs
-* ⚡ Redis caching
-* 🚦 Rate limiting using **Bucket4j**
+* 🚦 In-memory rate limiting using a **HashMap-based approach**
 * 📊 Click tracking and analytics
 * 🌍 Click analytics by date and country
-* 📈 Dashboard with analytics
+* 📈 Analytics dashboard
 * 🔗 User-specific URL management
 * 🗑️ URL creation and deletion
 * 🗄️ Relational database integration
@@ -167,7 +165,7 @@ A full-stack URL shortening platform built with **Spring Boot and React**, focus
 
 ### 🧰 Technologies
 
-**Java • Spring Boot • Spring Security • Spring Data JPA • Hibernate • JWT • Redis • PostgreSQL • MySQL • Bucket4j • Docker • GitHub Actions • React • Vite • Axios • Tailwind CSS**
+**Java • Spring Boot • Spring Security • Spring Data JPA • Hibernate • JWT • PostgreSQL • MySQL • Docker • GitHub Actions • React • Vite • Axios • Tailwind CSS**
 
 ---
 
@@ -196,31 +194,31 @@ A backend-focused team collaboration and task management system built to practic
 
 # 🧠 Backend Engineering Focus
 
-I'm particularly interested in the engineering problems behind backend applications:
+I'm particularly interested in the engineering problems behind backend applications.
 
 ### 🔐 Security
 
-Authentication, authorization, JWT, secure password storage, protected APIs, cookies, CORS and access control.
+Authentication, authorization, JWT, secure password storage, HttpOnly cookies, protected APIs, CORS, and access control.
 
 ### ⚡ Performance
 
-Caching, Redis, database indexing, query optimization, rate limiting and identifying application bottlenecks.
+Understanding caching, database indexing, query optimization, rate limiting, resource usage, and identifying application bottlenecks.
 
 ### 🗄️ Data
 
-Relational database design, entity relationships, transactions, persistence and efficient data access.
+Relational database design, entity relationships, transactions, persistence, and efficient data access.
 
 ### 🏗️ Architecture
 
-Clean separation of responsibilities, maintainable application structure, API design and architectural trade-offs.
+Clean separation of responsibilities, maintainable application structure, API design, modularity, and architectural trade-offs.
 
 ### 📈 Scalability
 
-Understanding how applications handle increasing users, traffic, data and workload.
+Understanding how applications handle increasing users, traffic, data, and workload.
 
 ### ☁️ Infrastructure
 
-Containers, CI/CD, cloud deployment, networking, monitoring and AWS fundamentals.
+Containers, CI/CD, cloud deployment, networking, monitoring, and AWS fundamentals.
 
 ---
 
@@ -228,7 +226,7 @@ Containers, CI/CD, cloud deployment, networking, monitoring and AWS fundamentals
 
 I'm **currently learning microservices architecture** and do not consider myself an expert in it.
 
-My focus is on understanding the problems that microservices solve and the trade-offs they introduce.
+My focus is on understanding the problems microservices solve and the trade-offs they introduce.
 
 Currently exploring:
 
@@ -242,7 +240,7 @@ Currently exploring:
 * Kafka & Event-Driven Architecture
 * Database-per-Service Concepts
 
-My goal is to first build a strong foundation in **monolithic backend architecture and system design**, and then understand when and why a system should be split into services.
+My goal is to first build a strong foundation in **backend architecture and system design**, and then understand when and why a system should be split into multiple services.
 
 ---
 
@@ -274,7 +272,7 @@ I believe production-ready development is more than writing code — it also inv
 ☁️ AWS & Cloud Fundamentals
 🐳 Docker & Containerization
 🔄 CI/CD & DevOps
-🗄️ PostgreSQL & Redis
+🗄️ PostgreSQL & Database Design
 📨 Kafka
 🧩 Microservices
 📊 Distributed Systems
@@ -303,7 +301,7 @@ REST APIs & Databases
   ↓
 Security & Authentication
   ↓
-Redis & Caching
+Production-Oriented Backend Development
   ↓
 Docker
   ↓
@@ -316,7 +314,7 @@ System Design
 Distributed Systems & Microservices
 ```
 
-I'm gradually moving from **building applications** toward understanding **how reliable and scalable systems are designed, deployed, and operated in production.**
+I'm gradually moving from **building applications** toward understanding **how reliable, secure, and scalable systems are designed, deployed, and operated in production.**
 
 ---
 
